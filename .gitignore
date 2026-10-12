@@ -1,0 +1,12 @@
+# Python bytecode and caches
+__pycache__/
+# Virtual environments
+.venv/
+
+# Django local files
+db.sqlite3
+
+# macOS and editor files
+.DS_Store
+.idea/
+.vscode/
