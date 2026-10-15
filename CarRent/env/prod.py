@@ -1,4 +1,4 @@
-from base import *
+from CarRent.base import *
 
 DEBUG = False
 
