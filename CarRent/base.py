@@ -39,6 +39,7 @@ PROJECT_APPS = [
     'apps.abstracts.apps.AbstractsConfig',
     'apps.users.apps.UsersConfig',
     'apps.cars.apps.CarsConfig',
+    'apps.matching.apps.MatchingConfig',
     'apps.orders.apps.OrdersConfig',      
     'apps.payments.apps.PaymentsConfig',
 ]

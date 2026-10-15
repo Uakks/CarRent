@@ -9,7 +9,7 @@ class CarAdmin(ModelAdmin):
     list_display = ('price_per_day', 'model', 'year')
     list_filter = ('price_per_day',)
     search_fields = ('price_per_day', 'model')
-    readonly_fields = ('car_id', 'created_at', 'updated_at', 'deleted_at', 'owner')
+    readonly_fields = ('car_id', 'created_at', 'updated_at', 'deleted_at')
     fieldsets = (
         (None, {'fields': ('model', 'year')}), 
         ("Price", {'fields': ("price_per_day",)}), 
