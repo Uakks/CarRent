@@ -3,10 +3,12 @@
 import os
 import sys
 
+from CarRent.conf import ENV_ID
+
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'CarRent.base')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', f'CarRent.env.{ENV_ID}')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
